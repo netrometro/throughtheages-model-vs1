@@ -9,6 +9,7 @@ import { Card } from './card.interface';
 })
 export class CardComponent implements OnInit, Card {
 
+  title: String = "";
   @Input() image: string = "";
 
   constructor() { }
