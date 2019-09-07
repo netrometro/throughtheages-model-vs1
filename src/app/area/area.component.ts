@@ -17,7 +17,8 @@ export class AreaComponent implements OnInit {
   constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
-    this.displayImage = this.sanitizer.bypassSecurityTrustResourceUrl(`data:image/png;base64, ${this.image}`);
+    //this.displayImage = this.sanitizer.bypassSecurityTrustResourceUrl(`data:image/png;base64,${this.image}`);
+    this.displayImage = this.sanitizer.bypassSecurityTrustStyle(`${this.image}`);
   }
 
 }

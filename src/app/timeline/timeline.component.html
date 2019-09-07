@@ -4,23 +4,13 @@
     <div class="p-grid scroll">
       <div class="p-col-12">
         <div class="line era1">
-          <app-card></app-card>
-          <app-card></app-card>
-          <app-card></app-card>
-          <app-card></app-card>
-          <app-card></app-card>
+          <app-card *ngFor="let card of cards | slice:0:5" [image]="card.image"></app-card>
         </div>
         <div class="line era2">
-          <app-card></app-card>
-          <app-card></app-card>
-          <app-card></app-card>
-          <app-card></app-card>
+          <app-card *ngFor="let card of cards | slice:5:9" [image]="card.image"></app-card>
         </div>
         <div class="line era3">
-          <app-card></app-card>
-          <app-card></app-card>
-          <app-card></app-card>
-          <app-card></app-card>
+          <app-card *ngFor="let card of cards | slice:9:13" [image]="card.image"></app-card>
         </div>
       </div>
 

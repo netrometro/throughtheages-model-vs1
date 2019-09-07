@@ -1,6 +1,6 @@
 // Determinar o nome do jogador
 // Determinar o número de jogadores
-// Inicializar as redes neurais com os dnas
+// Inicializar as redes neurais com os dnas (cada comportamento (dna) diferente pode ser associado a um personagem)
 // Determinar ordem dos jogadores
 
 // Embaralhar todos os decks

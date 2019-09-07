@@ -1,5 +1,7 @@
 <p-lightbox type="content">
-  <a pButton type="button" class="card ui-button-raised ui-button-secondary" ></a>
+  <a pButton type="button" class="card ui-button-raised ui-button-secondary" 
+  [style.background-image]="'url(data:image/png;base64,' + image + ')'"></a>
 
-  <iframe width="150" height="225" src="" frameborder="0" allowfullscreen></iframe>
+  <iframe width="150" height="225" src="" frameborder="0" allowfullscreen
+  [style.background-image]="'url(data:image/png;base64,' + image + ')'"></iframe>
 </p-lightbox>

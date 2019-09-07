@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
+import { AppService } from '.././app.service';
+
+import { Card } from '.././card/card.interface';
+
 @Component({
   selector: 'app-timeline',
   templateUrl: './timeline.component.html',
@@ -7,7 +11,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TimelineComponent implements OnInit {
 
-  constructor() { }
+  cards: Card[];
+
+  constructor(private app: AppService) {
+    this.cards = this.app.cards;
+  }
 
   ngOnInit() {
   }

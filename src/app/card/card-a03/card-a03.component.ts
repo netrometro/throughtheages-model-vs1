@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Card } from '.././card.interface';
+
 @Component({
   selector: 'app-card-a03',
   templateUrl: './card-a03.component.html',
   styleUrls: ['./card-a03.component.css']
 })
-export class CardA03Component implements OnInit {
+export class CardA03Component implements OnInit, Card {
 
   title: string = 'Frugalidade';
   image: any = base64image;
