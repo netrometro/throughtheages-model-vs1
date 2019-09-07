@@ -1,0 +1,33 @@
+.scroll {
+  min-width: 100%;
+
+  overflow-x: auto;
+  white-space: nowrap;
+
+  text-align: center;
+}
+
+.line {
+  display: inline-block;
+  float: none;
+  
+  padding: 5px;
+}
+
+.line span {
+  width: 80px;
+
+  display: inline-block;
+}
+
+.era1 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.era2 {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.era3 {
+  background-color: rgba(0,0,0,0.3);
+}

@@ -1,0 +1,25 @@
+.area {
+  display: inline-block;
+  float: none;
+  white-space: normal;
+
+  width: 80px;
+  height: 120px;
+
+  margin: 0px 2px;
+  border-radius: 5px;
+
+  background-size: 80px 120px;
+}
+
+.cube {
+  display: inline-block;
+
+  width: 15px;
+  height: 15px;
+
+  box-shadow: 2px 2px 2px #000;
+  margin: 1px;
+
+  background-color: blue;
+}

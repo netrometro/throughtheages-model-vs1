@@ -1,0 +1,17 @@
+.scroll {
+  min-width: 100%;
+
+  overflow-x: auto;
+  white-space: nowrap;
+
+  text-align: center;
+}
+
+.line {
+  display: inline-block;
+  float: none;
+}
+
+app-card {
+  margin: 0px 2px;
+}
