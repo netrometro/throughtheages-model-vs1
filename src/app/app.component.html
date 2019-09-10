@@ -1,3 +1,11 @@
+<p-dialog header="Jogador" [(visible)]="display" [modal]="true">
+  <input type="text" size="30" [(ngModel)]="userName" pInputText>
+  <p-footer>
+    <p-button label="Iniciar" (click)="enterName()"></p-button>
+  </p-footer>
+</p-dialog>
+
+
 <div class="p-grid">
   <div class="p-col-12">
     <app-menubar></app-menubar>

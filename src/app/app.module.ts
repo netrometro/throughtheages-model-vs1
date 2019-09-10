@@ -7,6 +7,7 @@ import { ButtonModule } from 'primeng/button';
 import { LightboxModule } from 'primeng/lightbox';
 import { DragDropModule } from 'primeng/dragdrop';
 import { AccordionModule } from 'primeng/accordion';
+import { DialogModule } from 'primeng/dialog';
 
 import { AppComponent } from './app.component';
 import { MenubarComponent } from './menubar/menubar.component';
@@ -31,7 +32,7 @@ import { AppService } from './app.service';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, ButtonModule, LightboxModule, AccordionModule, DragDropModule ],
+  imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, ButtonModule, LightboxModule, AccordionModule, DragDropModule, DialogModule ],
   declarations: [ AppComponent, MenubarComponent, TimelineComponent, CardComponent, HandplayerComponent, BoardComponent, TecnologyComponent, CultureComponent, MilitaryComponent, DeckDiscoveryComponent, DeckColoniesComponent, DeckWondersComponent, BoardSComponent, BoardTComponent, AreaComponent, CardA01Component, CardA02Component, CardA03Component ],
   bootstrap:    [ AppComponent ],
   providers: [AppService]

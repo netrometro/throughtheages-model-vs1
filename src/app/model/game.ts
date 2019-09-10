@@ -1,3 +1,5 @@
+
+
 // Determinar o nome do jogador
 // Determinar o número de jogadores
 // Inicializar as redes neurais com os dnas (cada comportamento (dna) diferente pode ser associado a um personagem)
